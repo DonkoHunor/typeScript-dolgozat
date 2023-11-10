@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artworks</title>
+  </head>
+  <body>
+    <div>
+      <p id="db">A művek darabszáma: 0</p>
+      <p id="sum">A művek összára: 0</p>
+    </div>
+    <div id="app">
+      <label for="nev">Név: <input type="text" id="nev"></label><br>
+      <label for="ev">Év: <input type="number" id="ev"></label><br>
+      <label for="ar">Ár: <input type="number" id="ar" min="5"></label><br>
+      <label for="magassag">Magasság: <input type="number" id="magassag" min="15"></label><br>
+      <button id="submit">Hozzáadás</button>
+      <p id="hiba"></p>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
